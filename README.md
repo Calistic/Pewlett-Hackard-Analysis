@@ -13,3 +13,6 @@
 
 ### One recommendation for further analysis on this data set:
 - It would be smart to further filter the mentor list by department. This would help to ensure that mentors and mentees are from the same department (ie prevent finance employees from mentoring engineers).
+
+ERD Picture
+![ERD](https://github.com/Calistic/Pewlett-Hackard-Analysis/blob/master/Pictures/ERD.PNG)
