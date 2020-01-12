@@ -1,7 +1,12 @@
+
+
+
 -- DROP TABLE num_title;
 
+-- CHALLENGE  CHALLENGE  CHALLENGE  CHALLENGE  CHALLENGE 
+
 -- PART 1a -- PART 1a -- PART 1a -- PART 1a -- PART 1a --
--- Number of [titles] Retiring
+-- -- Number of [titles] Retiring
 -- -- Create list of retirement age employees
 SELECT ri.emp_no,
 	ri.first_name,
@@ -84,7 +89,7 @@ FROM
   ) mentor_long_list
 WHERE rn = 1;
 
--- -- Filter for birth date and currently employed
+-- -- Filter for currently employed
 CREATE TABLE mentor_list AS
 SELECT msl.emp_no,
 	msl.first_name,
@@ -96,3 +101,11 @@ FROM mentor_short_list AS msl
 INNER JOIN dept_emp AS de
 ON (msl.emp_no = de.emp_no)
 WHERE (to_date = '9999-01-01');
+
+-- Count mentor list
+SELECT COUNT(*)
+FROM mentor_list;
+
+-- Count retire_list_filtered
+SELECT COUNT(*)
+FROM retire_list_filtered;
