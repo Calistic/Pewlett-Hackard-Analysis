@@ -1,5 +1,5 @@
 -- Notes
--- -- Tables were created in the module lesson. See file: ~Archive_queries.sql
+-- -- Tables were created in the module lesson. See file: queries.sql
 
 -- CHALLENGE  CHALLENGE  CHALLENGE  CHALLENGE  CHALLENGE 
 
