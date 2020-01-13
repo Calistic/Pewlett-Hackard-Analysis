@@ -1,6 +1,3 @@
--- Notes
--- -- Tables were created in the module lesson. See file: queries.sql
-
 -- CHALLENGE  CHALLENGE  CHALLENGE  CHALLENGE  CHALLENGE 
 
 -- PART 1a -- PART 1a -- PART 1a -- PART 1a -- PART 1a --
@@ -107,3 +104,15 @@ FROM mentor_list;
 -- Count retire_list_filtered
 SELECT COUNT(*)
 FROM retire_list_filtered;
+
+-- Show Tables
+-- -- PART1a
+SELECT * FROM retire_list;
+
+-- -- PART1b
+SELECT * FROM retire_list_count;
+
+SELECT * FROM retire_list_filtered;
+
+-- -- PART2c
+SELECT * FROM mentor_list;
